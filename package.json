@@ -1,0 +1,20 @@
+{
+  "name": "basic-youtube-app",
+  "version": "1.0.0",
+  "description": "Basic functionality for youtube like searching and video playing implemented using youtube api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "react",
+    "youtube",
+    "videos"
+  ],
+  "author": "Gurpreet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
